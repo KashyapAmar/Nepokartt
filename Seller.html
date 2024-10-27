@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Seller - Nepokart</title>
+    <link rel="stylesheet" href="seller.css">
+</head>
+<body>
+
+    <!-- Header with navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="loginpage.html">Login</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="seller.html" class="active">Become a Seller</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Become a Seller Section -->
+    <section class="seller-page">
+        <div class="seller-intro">
+            <h1>Sell on Nepokart</h1>
+            <p>Reach millions of customers across the globe by joining Nepokart as a seller. Grow your business with our support and user-friendly platform.</p>
+            <a href="#register" class="start-selling-btn">Start Selling</a>
+        </div>
+
+        <!-- Benefits Section -->
+        <div class="seller-benefits">
+            <h2>Why Sell on Nepokart?</h2>
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <h3>Wide Customer Reach</h3>
+                    <p>Expand your business with access to a massive customer base across various regions.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Easy Listing & Management</h3>
+                    <p>Effortlessly list and manage products with our seller-friendly tools.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Secure Payments</h3>
+                    <p>Get reliable and secure payments directly into your bank account.</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Seller Support</h3>
+                    <p>Receive continuous support and guidance from our dedicated seller support team.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Registration Form Section -->
+        <div class="seller-registration" id="register">
+            <h2>Register to Start Selling</h2>
+            <form class="registration-form">
+                <label for="business-name">Business Name</label>
+                <input type="text" id="business-name" name="business-name" required>
+
+                <label for="contact-name">Contact Person's Name</label>
+                <input type="text" id="contact-name" name="contact-name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="address">Business Address</label>
+                <textarea id="address" name="address" required></textarea>
+
+                <label for="category">Product Category</label>
+                <select id="category" name="category">
+                    <option value="electronics">Electronics</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="home">Home & Furniture</option>
+                    <option value="books">Books</option>
+                    <option value="beauty">Beauty & Personal Care</option>
+                    <option value="sports">Sports & Fitness</option>
+                </select>
+
+                <button type="submit">Submit Registration</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>

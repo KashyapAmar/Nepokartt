@@ -1,0 +1,133 @@
+/* Header Navigation */
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    background-color: #2874f0;
+    padding: 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #ff5722;
+}
+
+/* Cart Page Styling */
+.cart-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cart-page h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Cart Items Section */
+.cart-items {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.item-details h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.item-details p {
+    font-size: 16px;
+    color: #555;
+}
+
+.quantity {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.quantity button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.quantity input {
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Remove Button */
+.remove-item {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #ff5722;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Cart Summary Section */
+.cart-summary {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cart-summary h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.cart-summary p {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.cart-summary strong {
+    font-size: 20px;
+}
+
+.checkout-btn {
+    padding: 10px 20px;
+    background-color: #2874f0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
